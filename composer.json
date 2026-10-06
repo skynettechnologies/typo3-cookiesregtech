@@ -1,0 +1,18 @@
+{
+    "name": "skynettechnologies/typo3-cookiesregtech",
+    "type": "typo3-cms-extension",
+    "description": "CookiesRegTech cookie consent: guided connect, consent banner with automatic tracker blocking, Google Consent Mode, cookie scanner, and consent log.",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        { "name": "SKYNET TECHNOLOGIES USA LLC", "homepage": "https://www.skynettechnologies.com" }
+    ],
+    "require": {
+        "typo3/cms-core": "^13.0 || ^14.0"
+    },
+    "autoload": {
+        "psr-4": { "SkynetTechnologies\\CookiesRegTech\\": "Classes/" }
+    },
+    "extra": {
+        "typo3/cms": { "extension-key": "cookiesregtech" }
+    }
+}

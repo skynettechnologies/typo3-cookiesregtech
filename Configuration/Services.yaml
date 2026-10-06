@@ -1,0 +1,14 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  SkynetTechnologies\CookiesRegTech\:
+    resource: '../Classes/*'
+
+  SkynetTechnologies\CookiesRegTech\Controller\SettingsController:
+    public: true
+
+  SkynetTechnologies\CookiesRegTech\Middleware\BannerInjection:
+    public: true
